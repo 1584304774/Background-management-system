@@ -1,0 +1,137 @@
+/* 头部 */
+.header{
+    height:50px;
+    background:#428bca;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.header .information{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    
+}
+
+.header .information p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+}
+
+.logout{
+    cursor: pointer;
+}
+/* 内容区 */
+.main{
+    width: 100%;
+    height: 100%;
+}
+/* 左边的选项卡 */
+.main .main_left{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+.main .main_left ul li{
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.active{
+    background: #8EE5EE;
+    color: #ffffff;
+}
+/* 右边的展示区 */
+.main .main_right{
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+/* .main .main_right .list{
+    margin: 30px;
+} */
+
+/* 职能详情 */
+.main .main_right #jobList .list .listcon{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+.main .main_right .list .listcon .jobcon{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px dashed #ddd;
+}
+.main .main_right .list .listcon .jobcon .jobconleft{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.main .main_right .list .listcon .jobcon .jobconleft .jobname{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.main .main_right .list .listcon .jobcon .jobconleft .jobreq{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.main .main_right .list .listcon .jobcon .jobconright{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.main .main_right .list .listcon .jobcon .jobconright .jobprice{
+    color: red;
+    text-align: center;
+    line-height: 120px;
+}
+.main .main_right .list .listcon .listconbottom{
+    width:100%;
+    height:180px;
+}
+.main .main_right .list .listcon .listconbottom .companycon{
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+.main .main_right .list .listcon .listconbottom .companycon .companylogo img{
+    width: 100px;
+    height: 100px;
+    margin:20px 45px;
+}
+.main .main_right .list .listcon .listconbottom .companycon .companyname{
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+.main .main_right .list .listcon .listconbottom .operation{
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+.main .main_right .list .listcon .listconbottom .operation button{
+    margin-top: 120px;
+}
+.main .main_right .list .listcon .listconbottom .operation .btn-info{
+    float: left;
+}
+.main .main_right .list .listcon .listconbottom .operation .btn-danger{
+    float: right;
+}
+.main .main_right form{
+    width: 60%;
+    margin: 100px;
+}
